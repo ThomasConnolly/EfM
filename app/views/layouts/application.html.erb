@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EfM Naples Florida</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body><div class="container"> 
+
+            <header><%= image_tag "logo.png", class: "logo", width: "300" %> <h1 class="logo_head">Welcome to EfM Naples</h1></header><br><div class="clearall"></div>
+<h4 class="center">This is a resource for the 2013-14 session of Education for Ministry at Saint Monica's Episcopal Church, Naples FL.</h4><hr>
+     <%= yield %>
+   </div>
+</body>
+</html>
